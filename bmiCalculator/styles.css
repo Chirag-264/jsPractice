@@ -1,0 +1,16 @@
+body {
+    background-color: #2f2f2f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 200px auto 200px;
+    text-align: center;
+}
+
+span {
+    display: block;
+    margin-bottom: 20px;
+}
+
