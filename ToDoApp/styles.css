@@ -1,0 +1,31 @@
+body {
+    background-color: #252525;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.js-tasks, .js-inputs {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.js-inputs {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+}
+
+input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+}

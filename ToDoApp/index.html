@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page">
+        <h1>Todo List</h1>
+        <div class="js-inputs">
+            <input placeholder="Todo name" onkeydown="
+                if(event.key === 'Enter') pushTask(event);       
+            ">
+            <input type="date" class="js-date">
+            <button onclick="
+                pushTask();
+            ">Add</button>
+        </div>
+        <div class="js-tasks"></div>
+    </div>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
